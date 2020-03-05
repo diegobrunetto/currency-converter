@@ -1,0 +1,29 @@
+{
+  "name": "currencyconverter",
+  "version": "1.0.0",
+  "description": "This is a simple currency converter made from a Wes Bos course using the API from http://exchangeratesapi.io/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegobrunetto/Currency-Converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegobrunetto/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/diegobrunetto/Currency-Converter#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}
